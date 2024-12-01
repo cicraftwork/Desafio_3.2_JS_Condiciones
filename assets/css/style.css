@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+#imagen-borde {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.stickers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sticker img {
+  width: 100px;
+  height: 100px;
+}
+
+.sticker input {
+  display: block;
+  margin: 10px auto;
+  width: 50px;
+}
+
+.password-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#boton-password {
+  display: block;
+  margin: 0 auto;
+}
+
+#total-stickers, #resultado-password {
+  text-align: center;
+  font-weight: bold;
+}
